@@ -21,7 +21,7 @@
 |---|---|
 |Abstract factory|Factory |
 |Builder|Simple factory|
-|Prototype|Singleton|
+|Prototype|Singleton 👌|
 
 - 工厂模式的目的：将对象的创建/管理和对象的使用分离。
 
