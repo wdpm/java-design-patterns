@@ -19,7 +19,7 @@
 - 聚合关联关系建立在抽象层，也就是在Abstraction这个抽象类中。
 
 ## Java code implementation
-![](../../images/Bridge-implpng)
+![](../../images/Bridge-impl.png)
 
 - 形状的变化封装于Shape类，绘图逻辑的变化封装于Drawing类。
 - 紧耦合（继承）会导致类的爆炸增长。桥接模式可以减少派生类的数量。如果不使用桥接模式，改用继承方式，那么将产生四个派生类
