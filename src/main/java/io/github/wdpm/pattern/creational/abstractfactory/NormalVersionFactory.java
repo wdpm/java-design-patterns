@@ -6,12 +6,12 @@ package io.github.wdpm.pattern.creational.abstractfactory;
  */
 public class NormalVersionFactory implements AbstractFactory {
     @Override
-    public IPad7 createIPad7() {
+    public AbstractIPad7 createIPad7() {
         return new IPad7("iPad 7");
     }
 
     @Override
-    public IPhone11 createIPhone11() {
+    public AbstractIPhone11 createIPhone11() {
         return new IPhone11("iPhone 11");
     }
 }

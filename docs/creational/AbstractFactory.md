@@ -27,7 +27,9 @@
   - IPhone11
   - IPhone11Pro
   
-重点：抽象工厂生产抽象的产品 => AbstractFactory 生产 AbstractIPad7 或者 AbstractIPhone11
+重点：
+- 抽象工厂生产抽象的产品 => AbstractFactory 生产 AbstractIPad7 或者 AbstractIPhone11
+- 将工厂的变化封装于这个AbstractFactory中
 
 ## UML class diagram
 https://zh.wikipedia.org/wiki/File:Abstract_factory_UML.svg#file

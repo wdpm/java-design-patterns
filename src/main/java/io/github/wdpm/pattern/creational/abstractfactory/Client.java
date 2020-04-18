@@ -7,8 +7,8 @@ package io.github.wdpm.pattern.creational.abstractfactory;
 public class Client {
     public static void main(String[] args) {
         NormalVersionFactory normalVersionFactory = new NormalVersionFactory();
-        IPad7                iPad7                = normalVersionFactory.createIPad7();
-        IPhone11             iPhone11             = normalVersionFactory.createIPhone11();
+        AbstractIPad7        iPad7                = normalVersionFactory.createIPad7();
+        AbstractIPhone11     iPhone11             = normalVersionFactory.createIPhone11();
         System.out.println(iPad7);
         System.out.println(iPhone11);
 
