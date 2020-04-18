@@ -6,13 +6,16 @@ package io.github.wdpm.pattern.creational.abstractfactory;
  */
 public class Client {
     public static void main(String[] args) {
-        NormalVersionFactory normalVersionFactory = new NormalVersionFactory();
+
+        // NormalVersionFactory -> AbstractFactory -> AbstractIPad7/AbstractIPhone11
+        AbstractFactory normalVersionFactory = new NormalVersionFactory();
         AbstractIPad7        iPad7                = normalVersionFactory.createIPad7();
         AbstractIPhone11     iPhone11             = normalVersionFactory.createIPhone11();
         System.out.println(iPad7);
         System.out.println(iPhone11);
 
-        ProVersionFactory proVersionFactory = new ProVersionFactory();
+        // ProVersionFactory -> AbstractFactory -> AbstractIPad7/AbstractIPhone11
+        AbstractFactory proVersionFactory = new ProVersionFactory();
         AbstractIPad7     iPad7Pro          = proVersionFactory.createIPad7();
         AbstractIPhone11  iPhone11Pro       = proVersionFactory.createIPhone11();
         System.out.println(iPad7Pro);

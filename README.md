@@ -19,7 +19,7 @@
 ## creational design patterns
 |Object Scope|Class Scope|
 |---|---|
-|Abstract factory|Factory |
+|Abstract factory 👌|Factory |
 |Builder|Simple factory|
 |Prototype|Singleton 👌|
 
