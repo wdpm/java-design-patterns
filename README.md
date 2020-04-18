@@ -19,7 +19,7 @@
 ## creational design patterns
 |Object Scope|Class Scope|
 |---|---|
-|Abstract factory 👌|Factory |
+|Abstract factory 👌|Factory method|
 |Builder|Simple factory|
 |Prototype|Singleton 👌|
 
@@ -31,7 +31,7 @@
 |Adapter object 👌 |Adapter class |
 |Bridge 👌| |
 |Composite| |
-|Decorator| |
+|Decorator 👌| |
 |Facade| |
 |Flyweight| |
 |Proxy| |
