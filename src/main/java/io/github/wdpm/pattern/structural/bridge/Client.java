@@ -9,14 +9,14 @@ public class Client {
         V1Drawing v1Drawing = new V1Drawing();
         V2Drawing v2Drawing = new V2Drawing();
 
-        // Circle实例不知道具体的Drawing实现，只要是Drawing类型即可
+        // Circle实例不关心具体的Drawing实现，只要是Drawing类型即可
         Shape circle1 = new Circle(v1Drawing);
         Shape circle2 = new Circle(v2Drawing);
 
         circle1.draw();
         circle2.draw();
 
-        // Rectangle实例不知道具体的Drawing实现，只要是Drawing类型即可
+        // Rectangle实例不关心具体的Drawing实现，只要是Drawing类型即可
         Shape rectangle1 = new Rectangle(v1Drawing);
         Shape rectangle2 = new Rectangle(v2Drawing);
 

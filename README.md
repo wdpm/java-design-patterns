@@ -23,6 +23,8 @@
 |Builder|Simple factory|
 |Prototype|Singleton|
 
+- 工厂模式的目的：将对象的创建/管理和对象的使用分离。
+
 ## structural design patterns
 |Object Scope|Class Scope|
 |---|---|
