@@ -77,6 +77,6 @@
 - Idempotency(幂等)
 - Monitor
 
-## MISC
+## Misc
 - Resource Pool
 
