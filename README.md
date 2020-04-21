@@ -37,7 +37,7 @@
 |Decorator 👌| |
 |Facade 📅| |
 |Flyweight| |
-|Proxy 📅| |
+|Proxy 👌| |
 
 ## Architectural Design Patterns
 
