@@ -8,11 +8,11 @@ import java.util.List;
  * @Created evan
  * @Date 2020/4/18
  */
-public class SingletonLazyInMultiThreadClient {
+public class SingletonLazyClient {
     public static void main(String[] args) throws InterruptedException {
-        List<SingletonLazy> singletonLazies = new ArrayList<>(1000);
+        List<SingletonLazyForSingleThread> singletonLazies = new ArrayList<>(1000);
         for (int i = 0; i < 1000; i++) {
-            Thread thread = new Thread(() -> singletonLazies.add(SingletonLazy.getInstance()));
+            Thread thread = new Thread(() -> singletonLazies.add(SingletonLazyForSingleThread.getInstance()));
             thread.start();
         }
 

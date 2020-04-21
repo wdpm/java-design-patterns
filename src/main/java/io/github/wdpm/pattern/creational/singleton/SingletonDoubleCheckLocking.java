@@ -1,11 +1,15 @@
 package io.github.wdpm.pattern.creational.singleton;
 
 /**
- * @Created evan
- * @Date 2020/4/18
+ * @author  evan
+ * @date 2020/4/18
  */
 public class SingletonDoubleCheckLocking {
-    private static SingletonDoubleCheckLocking instance;
+    // avoid do this because of JVM instructions re-order issue
+    // private static SingletonDoubleCheckLocking instance;
+
+    // use volatile
+    private volatile static SingletonDoubleCheckLocking instance;
 
     private SingletonDoubleCheckLocking() {
     }
